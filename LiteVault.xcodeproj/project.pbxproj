@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		1B947E361B66EF1F009C2EE9 /* GetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B947E351B66EF1F009C2EE9 /* GetRequest.swift */; };
 		1B947E591B66FADF009C2EE9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E401B66F855009C2EE9 /* Alamofire.framework */; };
 		1B947E5A1B66FADF009C2EE9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E401B66F855009C2EE9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -97,35 +96,10 @@
 			containerPortal = 1BE756FF1B653DC90089434C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1BE757061B653DC90089434C;
-=======
-		1BD3B5D91B59C962006280EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3B5D81B59C962006280EC /* AppDelegate.swift */; };
-		1BD3B5DB1B59C963006280EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3B5DA1B59C963006280EC /* ViewController.swift */; };
-		1BD3B5DE1B59C963006280EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3B5DC1B59C963006280EC /* Main.storyboard */; };
-		1BD3B5E01B59C963006280EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3B5DF1B59C963006280EC /* Assets.xcassets */; };
-		1BD3B5E31B59C963006280EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3B5E11B59C963006280EC /* LaunchScreen.storyboard */; };
-		1BD3B5EE1B59C963006280EC /* LiteVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3B5ED1B59C963006280EC /* LiteVaultTests.swift */; };
-		1BD3B5F91B59C963006280EC /* LiteVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3B5F81B59C963006280EC /* LiteVaultUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1BD3B5EA1B59C963006280EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1BD3B5CD1B59C962006280EC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1BD3B5D41B59C962006280EC;
-			remoteInfo = LiteVault;
-		};
-		1BD3B5F51B59C963006280EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1BD3B5CD1B59C962006280EC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1BD3B5D41B59C962006280EC;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			remoteInfo = LiteVault;
 		};
 /* End PBXContainerItemProxy section */
 
-<<<<<<< HEAD
 /* Begin PBXCopyFilesBuildPhase section */
 		1B947E5D1B66FAE0009C2EE9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -168,40 +142,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1BE757181B653DC90089434C /* Frameworks */ = {
-=======
-/* Begin PBXFileReference section */
-		1BD3B5D51B59C962006280EC /* LiteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD3B5D81B59C962006280EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BD3B5DA1B59C963006280EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1BD3B5DD1B59C963006280EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1BD3B5DF1B59C963006280EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1BD3B5E21B59C963006280EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1BD3B5E41B59C963006280EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BD3B5E91B59C963006280EC /* LiteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiteVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD3B5ED1B59C963006280EC /* LiteVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteVaultTests.swift; sourceTree = "<group>"; };
-		1BD3B5EF1B59C963006280EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BD3B5F41B59C963006280EC /* LiteVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiteVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BD3B5F81B59C963006280EC /* LiteVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteVaultUITests.swift; sourceTree = "<group>"; };
-		1BD3B5FA1B59C963006280EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		1BD3B5D21B59C962006280EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5E61B59C963006280EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5F11B59C963006280EC /* Frameworks */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,7 +151,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		1B947E391B66F855009C2EE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,29 +169,10 @@
 				1B947E6A1B6706AA009C2EE9 /* SwiftyJSON iOS Tests.xctest */,
 				1B947E6C1B6706AA009C2EE9 /* SwiftyJSON.framework */,
 				1B947E6E1B6706AA009C2EE9 /* SwiftyJSON OSX Tests.xctest */,
-=======
-		1BD3B5CC1B59C962006280EC = {
-			isa = PBXGroup;
-			children = (
-				1BD3B5D71B59C962006280EC /* LiteVault */,
-				1BD3B5EC1B59C963006280EC /* LiteVaultTests */,
-				1BD3B5F71B59C963006280EC /* LiteVaultUITests */,
-				1BD3B5D61B59C962006280EC /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		1BD3B5D61B59C962006280EC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1BD3B5D51B59C962006280EC /* LiteVault.app */,
-				1BD3B5E91B59C963006280EC /* LiteVaultTests.xctest */,
-				1BD3B5F41B59C963006280EC /* LiteVaultUITests.xctest */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		1BE756FE1B653DC90089434C = {
 			isa = PBXGroup;
 			children = (
@@ -278,39 +198,19 @@
 			children = (
 				1BE7573B1B653F5F0089434C /* Core */,
 				1BE7573A1B653F440089434C /* App Defaults */,
-=======
-		1BD3B5D71B59C962006280EC /* LiteVault */ = {
-			isa = PBXGroup;
-			children = (
-				1BD3B5D81B59C962006280EC /* AppDelegate.swift */,
-				1BD3B5DA1B59C963006280EC /* ViewController.swift */,
-				1BD3B5DC1B59C963006280EC /* Main.storyboard */,
-				1BD3B5DF1B59C963006280EC /* Assets.xcassets */,
-				1BD3B5E11B59C963006280EC /* LaunchScreen.storyboard */,
-				1BD3B5E41B59C963006280EC /* Info.plist */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			path = LiteVault;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		1BE7571E1B653DC90089434C /* LiteVaultTests */ = {
 			isa = PBXGroup;
 			children = (
 				1BE7571F1B653DC90089434C /* LiteVaultTests.swift */,
 				1BE757211B653DC90089434C /* Info.plist */,
-=======
-		1BD3B5EC1B59C963006280EC /* LiteVaultTests */ = {
-			isa = PBXGroup;
-			children = (
-				1BD3B5ED1B59C963006280EC /* LiteVaultTests.swift */,
-				1BD3B5EF1B59C963006280EC /* Info.plist */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			path = LiteVaultTests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		1BE7573A1B653F440089434C /* App Defaults */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,21 +230,11 @@
 				1B947E351B66EF1F009C2EE9 /* GetRequest.swift */,
 			);
 			name = Core;
-=======
-		1BD3B5F71B59C963006280EC /* LiteVaultUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1BD3B5F81B59C963006280EC /* LiteVaultUITests.swift */,
-				1BD3B5FA1B59C963006280EC /* Info.plist */,
-			);
-			path = LiteVaultUITests;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-<<<<<<< HEAD
 		1BE757061B653DC90089434C /* LiteVault */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BE7572F1B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVault" */;
@@ -353,20 +243,10 @@
 				1BE757041B653DC90089434C /* Frameworks */,
 				1BE757051B653DC90089434C /* Resources */,
 				1B947E5D1B66FAE0009C2EE9 /* Embed Frameworks */,
-=======
-		1BD3B5D41B59C962006280EC /* LiteVault */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD3B5FD1B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVault" */;
-			buildPhases = (
-				1BD3B5D11B59C962006280EC /* Sources */,
-				1BD3B5D21B59C962006280EC /* Frameworks */,
-				1BD3B5D31B59C962006280EC /* Resources */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
 				1B947E5C1B66FADF009C2EE9 /* PBXTargetDependency */,
 				1B947E721B6706CA009C2EE9 /* PBXTargetDependency */,
 			);
@@ -382,26 +262,10 @@
 				1BE757171B653DC90089434C /* Sources */,
 				1BE757181B653DC90089434C /* Frameworks */,
 				1BE757191B653DC90089434C /* Resources */,
-=======
-			);
-			name = LiteVault;
-			productName = LiteVault;
-			productReference = 1BD3B5D51B59C962006280EC /* LiteVault.app */;
-			productType = "com.apple.product-type.application";
-		};
-		1BD3B5E81B59C963006280EC /* LiteVaultTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD3B6001B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVaultTests" */;
-			buildPhases = (
-				1BD3B5E51B59C963006280EC /* Sources */,
-				1BD3B5E61B59C963006280EC /* Frameworks */,
-				1BD3B5E71B59C963006280EC /* Resources */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
 				1BE7571D1B653DC90089434C /* PBXTargetDependency */,
 			);
 			name = LiteVaultTests;
@@ -413,43 +277,11 @@
 
 /* Begin PBXProject section */
 		1BE756FF1B653DC90089434C /* Project object */ = {
-=======
-				1BD3B5EB1B59C963006280EC /* PBXTargetDependency */,
-			);
-			name = LiteVaultTests;
-			productName = LiteVaultTests;
-			productReference = 1BD3B5E91B59C963006280EC /* LiteVaultTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1BD3B5F31B59C963006280EC /* LiteVaultUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BD3B6031B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVaultUITests" */;
-			buildPhases = (
-				1BD3B5F01B59C963006280EC /* Sources */,
-				1BD3B5F11B59C963006280EC /* Frameworks */,
-				1BD3B5F21B59C963006280EC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1BD3B5F61B59C963006280EC /* PBXTargetDependency */,
-			);
-			name = LiteVaultUITests;
-			productName = LiteVaultUITests;
-			productReference = 1BD3B5F41B59C963006280EC /* LiteVaultUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		1BD3B5CD1B59C962006280EC /* Project object */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Loshan Industries";
 				TargetAttributes = {
-<<<<<<< HEAD
 					1BE757061B653DC90089434C = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -460,22 +292,6 @@
 				};
 			};
 			buildConfigurationList = 1BE757021B653DC90089434C /* Build configuration list for PBXProject "LiteVault" */;
-=======
-					1BD3B5D41B59C962006280EC = {
-						CreatedOnToolsVersion = 7.0;
-					};
-					1BD3B5E81B59C963006280EC = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 1BD3B5D41B59C962006280EC;
-					};
-					1BD3B5F31B59C963006280EC = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 1BD3B5D41B59C962006280EC;
-					};
-				};
-			};
-			buildConfigurationList = 1BD3B5D01B59C962006280EC /* Build configuration list for PBXProject "LiteVault" */;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -483,7 +299,6 @@
 				en,
 				Base,
 			);
-<<<<<<< HEAD
 			mainGroup = 1BE756FE1B653DC90089434C;
 			productRefGroup = 1BE757081B653DC90089434C /* Products */;
 			projectDirPath = "";
@@ -501,21 +316,10 @@
 			targets = (
 				1BE757061B653DC90089434C /* LiteVault */,
 				1BE7571A1B653DC90089434C /* LiteVaultTests */,
-=======
-			mainGroup = 1BD3B5CC1B59C962006280EC;
-			productRefGroup = 1BD3B5D61B59C962006280EC /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				1BD3B5D41B59C962006280EC /* LiteVault */,
-				1BD3B5E81B59C963006280EC /* LiteVaultTests */,
-				1BD3B5F31B59C963006280EC /* LiteVaultUITests */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 		};
 /* End PBXProject section */
 
-<<<<<<< HEAD
 /* Begin PBXReferenceProxy section */
 		1B947E401B66F855009C2EE9 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
@@ -587,27 +391,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1BE757191B653DC90089434C /* Resources */ = {
-=======
-/* Begin PBXResourcesBuildPhase section */
-		1BD3B5D31B59C962006280EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD3B5E31B59C963006280EC /* LaunchScreen.storyboard in Resources */,
-				1BD3B5E01B59C963006280EC /* Assets.xcassets in Resources */,
-				1BD3B5DE1B59C963006280EC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5E71B59C963006280EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5F21B59C963006280EC /* Resources */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -617,7 +400,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-<<<<<<< HEAD
 		1BE757031B653DC90089434C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -633,37 +415,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BE757201B653DC90089434C /* LiteVaultTests.swift in Sources */,
-=======
-		1BD3B5D11B59C962006280EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD3B5DB1B59C963006280EC /* ViewController.swift in Sources */,
-				1BD3B5D91B59C962006280EC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5E51B59C963006280EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD3B5EE1B59C963006280EC /* LiteVaultTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1BD3B5F01B59C963006280EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1BD3B5F91B59C963006280EC /* LiteVaultUITests.swift in Sources */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-<<<<<<< HEAD
 		1B947E5C1B66FADF009C2EE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
@@ -678,47 +435,22 @@
 			isa = PBXTargetDependency;
 			target = 1BE757061B653DC90089434C /* LiteVault */;
 			targetProxy = 1BE7571C1B653DC90089434C /* PBXContainerItemProxy */;
-=======
-		1BD3B5EB1B59C963006280EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1BD3B5D41B59C962006280EC /* LiteVault */;
-			targetProxy = 1BD3B5EA1B59C963006280EC /* PBXContainerItemProxy */;
-		};
-		1BD3B5F61B59C963006280EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1BD3B5D41B59C962006280EC /* LiteVault */;
-			targetProxy = 1BD3B5F51B59C963006280EC /* PBXContainerItemProxy */;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-<<<<<<< HEAD
 		1BE7570E1B653DC90089434C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1BE7570F1B653DC90089434C /* Base */,
-=======
-		1BD3B5DC1B59C963006280EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BD3B5DD1B59C963006280EC /* Base */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
 		1BE757131B653DC90089434C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1BE757141B653DC90089434C /* Base */,
-=======
-		1BD3B5E11B59C963006280EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BD3B5E21B59C963006280EC /* Base */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -726,11 +458,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-<<<<<<< HEAD
 		1BE7572D1B653DC90089434C /* Debug */ = {
-=======
-		1BD3B5FB1B59C963006280EC /* Debug */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -766,11 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -779,11 +503,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
 		1BE7572E1B653DC90089434C /* Release */ = {
-=======
-		1BD3B5FC1B59C963006280EC /* Release */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -813,11 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-=======
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -825,49 +541,33 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
 		1BE757301B653DC90089434C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-=======
-		1BD3B5FE1B59C963006280EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 				INFOPLIST_FILE = LiteVault/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
 		1BE757311B653DC90089434C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-=======
-		1BD3B5FF1B59C963006280EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 				INFOPLIST_FILE = LiteVault/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
 		1BE757331B653DC90089434C /* Debug */ = {
-=======
-		1BD3B6011B59C963006280EC /* Debug */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -879,11 +579,7 @@
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
 		1BE757341B653DC90089434C /* Release */ = {
-=======
-		1BD3B6021B59C963006280EC /* Release */ = {
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -895,7 +591,6 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -904,45 +599,10 @@
 			buildConfigurations = (
 				1BE7572D1B653DC90089434C /* Debug */,
 				1BE7572E1B653DC90089434C /* Release */,
-=======
-		1BD3B6041B59C963006280EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LiteVaultUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVaultUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LiteVault;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		1BD3B6051B59C963006280EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = LiteVaultUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVaultUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = LiteVault;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		1BD3B5D01B59C962006280EC /* Build configuration list for PBXProject "LiteVault" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BD3B5FB1B59C963006280EC /* Debug */,
-				1BD3B5FC1B59C963006280EC /* Release */,
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
 		1BE7572F1B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVault" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -964,33 +624,4 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = 1BE756FF1B653DC90089434C /* Project object */;
-=======
-		1BD3B5FD1B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVault" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BD3B5FE1B59C963006280EC /* Debug */,
-				1BD3B5FF1B59C963006280EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1BD3B6001B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVaultTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BD3B6011B59C963006280EC /* Debug */,
-				1BD3B6021B59C963006280EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1BD3B6031B59C963006280EC /* Build configuration list for PBXNativeTarget "LiteVaultUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1BD3B6041B59C963006280EC /* Debug */,
-				1BD3B6051B59C963006280EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 1BD3B5CD1B59C962006280EC /* Project object */;
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
 }

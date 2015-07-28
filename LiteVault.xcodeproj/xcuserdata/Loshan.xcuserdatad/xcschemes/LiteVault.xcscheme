@@ -14,11 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "1BE757061B653DC90089434C"
-=======
-               BlueprintIdentifier = "1BD3B5D41B59C962006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
                BuildableName = "LiteVault.app"
                BlueprintName = "LiteVault"
                ReferencedContainer = "container:LiteVault.xcodeproj">
@@ -27,27 +23,16 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-<<<<<<< HEAD
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-=======
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "1BE7571A1B653DC90089434C"
-=======
-               BlueprintIdentifier = "1BD3B5E81B59C963006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
                BuildableName = "LiteVaultTests.xctest"
                BlueprintName = "LiteVaultTests"
                ReferencedContainer = "container:LiteVault.xcodeproj">
@@ -57,11 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "1BE757251B653DC90089434C"
-=======
-               BlueprintIdentifier = "1BD3B5F31B59C963006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
                BuildableName = "LiteVaultUITests.xctest"
                BlueprintName = "LiteVaultUITests"
                ReferencedContainer = "container:LiteVault.xcodeproj">
@@ -71,11 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1BE757061B653DC90089434C"
-=======
-            BlueprintIdentifier = "1BD3B5D41B59C962006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
             BuildableName = "LiteVault.app"
             BlueprintName = "LiteVault"
             ReferencedContainer = "container:LiteVault.xcodeproj">
@@ -85,18 +62,11 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-<<<<<<< HEAD
       buildConfiguration = "Debug"
-=======
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-<<<<<<< HEAD
-=======
-      buildConfiguration = "Debug"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -105,11 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1BE757061B653DC90089434C"
-=======
-            BlueprintIdentifier = "1BD3B5D41B59C962006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
             BuildableName = "LiteVault.app"
             BlueprintName = "LiteVault"
             ReferencedContainer = "container:LiteVault.xcodeproj">
@@ -119,27 +85,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-<<<<<<< HEAD
       buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-=======
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      savedToolIdentifier = ""
-      useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1BE757061B653DC90089434C"
-=======
-            BlueprintIdentifier = "1BD3B5D41B59C962006280EC"
->>>>>>> 60adb2b3c5ca38b494a68e8a369e40d7e3b21630
             BuildableName = "LiteVault.app"
             BlueprintName = "LiteVault"
             ReferencedContainer = "container:LiteVault.xcodeproj">
