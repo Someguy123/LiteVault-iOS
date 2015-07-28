@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B947E361B66EF1F009C2EE9 /* GetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B947E351B66EF1F009C2EE9 /* GetRequest.swift */; };
+		1B947E591B66FADF009C2EE9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E401B66F855009C2EE9 /* Alamofire.framework */; };
+		1B947E5A1B66FADF009C2EE9 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E401B66F855009C2EE9 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1B947E6F1B6706CA009C2EE9 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E681B6706AA009C2EE9 /* SwiftyJSON.framework */; };
+		1B947E701B6706CA009C2EE9 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1B947E681B6706AA009C2EE9 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1BE7570B1B653DC90089434C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7570A1B653DC90089434C /* AppDelegate.swift */; };
+		1BE7570D1B653DC90089434C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7570C1B653DC90089434C /* ViewController.swift */; };
+		1BE757101B653DC90089434C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE7570E1B653DC90089434C /* Main.storyboard */; };
+		1BE757121B653DC90089434C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE757111B653DC90089434C /* Assets.xcassets */; };
+		1BE757151B653DC90089434C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE757131B653DC90089434C /* LaunchScreen.storyboard */; };
+		1BE757201B653DC90089434C /* LiteVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7571F1B653DC90089434C /* LiteVaultTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B947E3F1B66F855009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		1B947E411B66F855009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		1B947E431B66F855009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		1B947E451B66F855009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		1B947E5B1B66FADF009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		1B947E671B6706AA009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		1B947E691B6706AA009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		1B947E6B1B6706AA009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		1B947E6D1B6706AA009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		1B947E711B6706CA009C2EE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		1BE7571C1B653DC90089434C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE756FF1B653DC90089434C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE757061B653DC90089434C;
+			remoteInfo = LiteVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B947E5D1B66FAE0009C2EE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1B947E701B6706CA009C2EE9 /* SwiftyJSON.framework in Embed Frameworks */,
+				1B947E5A1B66FADF009C2EE9 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B947E351B66EF1F009C2EE9 /* GetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetRequest.swift; sourceTree = "<group>"; };
+		1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		1BE757071B653DC90089434C /* LiteVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE7570A1B653DC90089434C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BE7570C1B653DC90089434C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BE7570F1B653DC90089434C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE757111B653DC90089434C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE757141B653DC90089434C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE757161B653DC90089434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE7571B1B653DC90089434C /* LiteVaultTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiteVaultTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE7571F1B653DC90089434C /* LiteVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteVaultTests.swift; sourceTree = "<group>"; };
+		1BE757211B653DC90089434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE757041B653DC90089434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B947E6F1B6706CA009C2EE9 /* SwiftyJSON.framework in Frameworks */,
+				1B947E591B66FADF009C2EE9 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE757181B653DC90089434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B947E391B66F855009C2EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B947E401B66F855009C2EE9 /* Alamofire.framework */,
+				1B947E421B66F855009C2EE9 /* Alamofire.framework */,
+				1B947E441B66F855009C2EE9 /* Alamofire iOS Tests.xctest */,
+				1B947E461B66F855009C2EE9 /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B947E611B6706AA009C2EE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B947E681B6706AA009C2EE9 /* SwiftyJSON.framework */,
+				1B947E6A1B6706AA009C2EE9 /* SwiftyJSON iOS Tests.xctest */,
+				1B947E6C1B6706AA009C2EE9 /* SwiftyJSON.framework */,
+				1B947E6E1B6706AA009C2EE9 /* SwiftyJSON OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE756FE1B653DC90089434C = {
+			isa = PBXGroup;
+			children = (
+				1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */,
+				1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */,
+				1BE757091B653DC90089434C /* LiteVault */,
+				1BE7571E1B653DC90089434C /* LiteVaultTests */,
+				1BE757081B653DC90089434C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE757081B653DC90089434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE757071B653DC90089434C /* LiteVault.app */,
+				1BE7571B1B653DC90089434C /* LiteVaultTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE757091B653DC90089434C /* LiteVault */ = {
+			isa = PBXGroup;
+			children = (
+				1BE7573B1B653F5F0089434C /* Core */,
+				1BE7573A1B653F440089434C /* App Defaults */,
+			);
+			path = LiteVault;
+			sourceTree = "<group>";
+		};
+		1BE7571E1B653DC90089434C /* LiteVaultTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE7571F1B653DC90089434C /* LiteVaultTests.swift */,
+				1BE757211B653DC90089434C /* Info.plist */,
+			);
+			path = LiteVaultTests;
+			sourceTree = "<group>";
+		};
+		1BE7573A1B653F440089434C /* App Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				1BE7570A1B653DC90089434C /* AppDelegate.swift */,
+				1BE7570C1B653DC90089434C /* ViewController.swift */,
+				1BE7570E1B653DC90089434C /* Main.storyboard */,
+				1BE757111B653DC90089434C /* Assets.xcassets */,
+				1BE757131B653DC90089434C /* LaunchScreen.storyboard */,
+				1BE757161B653DC90089434C /* Info.plist */,
+			);
+			name = "App Defaults";
+			sourceTree = "<group>";
+		};
+		1BE7573B1B653F5F0089434C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1B947E351B66EF1F009C2EE9 /* GetRequest.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE757061B653DC90089434C /* LiteVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE7572F1B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVault" */;
+			buildPhases = (
+				1BE757031B653DC90089434C /* Sources */,
+				1BE757041B653DC90089434C /* Frameworks */,
+				1BE757051B653DC90089434C /* Resources */,
+				1B947E5D1B66FAE0009C2EE9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B947E5C1B66FADF009C2EE9 /* PBXTargetDependency */,
+				1B947E721B6706CA009C2EE9 /* PBXTargetDependency */,
+			);
+			name = LiteVault;
+			productName = LiteVault;
+			productReference = 1BE757071B653DC90089434C /* LiteVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BE7571A1B653DC90089434C /* LiteVaultTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE757321B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVaultTests" */;
+			buildPhases = (
+				1BE757171B653DC90089434C /* Sources */,
+				1BE757181B653DC90089434C /* Frameworks */,
+				1BE757191B653DC90089434C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE7571D1B653DC90089434C /* PBXTargetDependency */,
+			);
+			name = LiteVaultTests;
+			productName = LiteVaultTests;
+			productReference = 1BE7571B1B653DC90089434C /* LiteVaultTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE756FF1B653DC90089434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Loshan Industries";
+				TargetAttributes = {
+					1BE757061B653DC90089434C = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1BE7571A1B653DC90089434C = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1BE757061B653DC90089434C;
+					};
+				};
+			};
+			buildConfigurationList = 1BE757021B653DC90089434C /* Build configuration list for PBXProject "LiteVault" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE756FE1B653DC90089434C;
+			productRefGroup = 1BE757081B653DC90089434C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1B947E391B66F855009C2EE9 /* Products */;
+					ProjectRef = 1B947E381B66F855009C2EE9 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 1B947E611B6706AA009C2EE9 /* Products */;
+					ProjectRef = 1B947E601B6706AA009C2EE9 /* SwiftyJSON.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1BE757061B653DC90089434C /* LiteVault */,
+				1BE7571A1B653DC90089434C /* LiteVaultTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1B947E401B66F855009C2EE9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1B947E3F1B66F855009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E421B66F855009C2EE9 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1B947E411B66F855009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E441B66F855009C2EE9 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 1B947E431B66F855009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E461B66F855009C2EE9 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 1B947E451B66F855009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E681B6706AA009C2EE9 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 1B947E671B6706AA009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E6A1B6706AA009C2EE9 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 1B947E691B6706AA009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E6C1B6706AA009C2EE9 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 1B947E6B1B6706AA009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1B947E6E1B6706AA009C2EE9 /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 1B947E6D1B6706AA009C2EE9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE757051B653DC90089434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE757151B653DC90089434C /* LaunchScreen.storyboard in Resources */,
+				1BE757121B653DC90089434C /* Assets.xcassets in Resources */,
+				1BE757101B653DC90089434C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE757191B653DC90089434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE757031B653DC90089434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE7570D1B653DC90089434C /* ViewController.swift in Sources */,
+				1BE7570B1B653DC90089434C /* AppDelegate.swift in Sources */,
+				1B947E361B66EF1F009C2EE9 /* GetRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE757171B653DC90089434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE757201B653DC90089434C /* LiteVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B947E5C1B66FADF009C2EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 1B947E5B1B66FADF009C2EE9 /* PBXContainerItemProxy */;
+		};
+		1B947E721B6706CA009C2EE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 1B947E711B6706CA009C2EE9 /* PBXContainerItemProxy */;
+		};
+		1BE7571D1B653DC90089434C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE757061B653DC90089434C /* LiteVault */;
+			targetProxy = 1BE7571C1B653DC90089434C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE7570E1B653DC90089434C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE7570F1B653DC90089434C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE757131B653DC90089434C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE757141B653DC90089434C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE7572D1B653DC90089434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BE7572E1B653DC90089434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE757301B653DC90089434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LiteVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BE757311B653DC90089434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = LiteVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BE757331B653DC90089434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiteVaultTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiteVault.app/LiteVault";
+			};
+			name = Debug;
+		};
+		1BE757341B653DC90089434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiteVaultTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = losh11.LiteVaultTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiteVault.app/LiteVault";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE757021B653DC90089434C /* Build configuration list for PBXProject "LiteVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE7572D1B653DC90089434C /* Debug */,
+				1BE7572E1B653DC90089434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE7572F1B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE757301B653DC90089434C /* Debug */,
+				1BE757311B653DC90089434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE757321B653DC90089434C /* Build configuration list for PBXNativeTarget "LiteVaultTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE757331B653DC90089434C /* Debug */,
+				1BE757341B653DC90089434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE756FF1B653DC90089434C /* Project object */;
+}
